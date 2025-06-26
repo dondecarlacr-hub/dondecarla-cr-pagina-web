@@ -20,7 +20,7 @@ const About: React.FC<AboutProps> = ({ useElementOnScreen }) => {
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[28vh] md:h-[35vh] flex items-center justify-center overflow-hidden">
           <img
-            src="src/assets/banner.jpeg"
+            src="assets/banner.jpeg"
             alt="Interior de Donde Carla"
             className="absolute inset-0 w-full h-full object-cover brightness-50 contrast-125"
           />
@@ -55,7 +55,7 @@ const About: React.FC<AboutProps> = ({ useElementOnScreen }) => {
             </div>
             <div className={`rounded-lg overflow-hidden shadow-lg ${nuestraHistoriaVisible ? 'animate__animated animate__fadeInRight' : 'opacity-0'}`}>
               <img
-                src="src/assets/nuestra-historia.jpeg"
+                src="assets/nuestra-historia.jpeg"
                 alt="Cocineros preparando comida en Donde Carla"
                 className="w-full h-auto"
               />
