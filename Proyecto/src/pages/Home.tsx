@@ -38,7 +38,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[50vh] md:h-[46vh] flex items-center justify-center overflow-hidden">
           <img
-            src="src/assets/banner.jpeg"
+            src="../assets/banner.jpeg"
             alt="Interior de Donde Carla"
             className="absolute object-cover inset-0 w-full h-full brightness-50 contrast-125"
           />
