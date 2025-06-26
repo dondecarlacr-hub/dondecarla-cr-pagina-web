@@ -102,7 +102,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
               }`}
             >
               <img
-                src="src/assets/bienvenida-imagen.jpg"
+                src="assets/bienvenida-imagen.jpg"
                 alt="Interior de Donde Carla"
                 className="w-full h-auto object-cover"
               />
@@ -221,7 +221,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
               }`}
             >
               <img
-                src="src/assets/local-donde-Carla.jpeg"
+                src="assets/local-donde-Carla.jpeg"
                 alt="Exterior of Donde Carla restaurant with a warm, inviting facade, large windows, and an outdoor seating area visible, surrounded by lush green foliage under a clear sky."
                 className="w-full h-full object-cover"
               />
