@@ -44,7 +44,7 @@ const About: React.FC<AboutProps> = ({ useElementOnScreen }) => {
                 Nuestra Historia
               </h2>
               <p className={`font-opensans text-sm md:text-base text-white-2 mb-4 ${nuestraHistoriaVisible ? 'animate__animated animate__fadeInLeft' : 'opacity-0'}`}>
-                Donde Carla nació hace más de 15 años como un pequeño negocio familiar en Juan Viñas. Fundado por Carla Rodríguez, quien siempre soñó con compartir sus recetas familiares con la comunidad.
+                Donde Carla nació hace más de 2 años como un pequeño negocio familiar en Juan Viñas. Fundado por Carla Morales, quien siempre soñó con compartir sus recetas familiares con la comunidad.
               </p>
               <p className={`font-opensans text-sm md:text-base text-white-2 mb-4 ${nuestraHistoriaVisible ? 'animate__animated animate__fadeInLeft' : 'opacity-0'}`}>
                 Lo que comenzó como un modesto local con apenas cinco mesas, se ha convertido en uno de los restaurantes más queridos de la zona, manteniendo siempre la esencia casera y el toque personal que nos caracteriza.
