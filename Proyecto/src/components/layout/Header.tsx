@@ -13,7 +13,7 @@ const Header = () => {
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img
-              src="src\assets\logo-donde-carla.png"
+              src="assets\logo-donde-carla.png"
               alt="Logo Donde Carla"
               className="h-10 md:h-12 rounded-full"
             />
