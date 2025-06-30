@@ -119,8 +119,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                       Dirección
                     </h3>
                     <p className="font-opensans text-white-2">
-                      100m Este del Parque Central, Juan Viñas, Cartago, Costa
-                      Rica
+                      De la entrada de los Alpes, 50 mts al sur, Provincia de Cartago, Jiménez, Juan Viñas.
                     </p>
                   </div>
                 </article>
