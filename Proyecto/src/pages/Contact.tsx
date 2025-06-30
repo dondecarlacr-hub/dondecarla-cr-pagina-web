@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Swal from "sweetalert2";
 import AppService from "../services/AppService";
 import {
@@ -8,6 +8,7 @@ import {
   MessageCircleIcon,
 } from "lucide-react";
 import WhatsAppButton from "../components/ui/WhatsAppButton";
+import PrivacyPolicyModal from "../components/ui/PrivacyPolicy";
 
 interface ContactProps {
   useElementOnScreen: (options: any) => [React.RefObject<any>, boolean];
@@ -17,11 +18,25 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
   const [bannerRef, bannerVisible] = useElementOnScreen({ threshold: 0.3 });
   const [infoRef, infoVisible] = useElementOnScreen({ threshold: 0 });
   const [formRef, formVisible] = useElementOnScreen({ threshold: 0 });
+  const [showPolicy, setShowPolicy] = useState(false);
+  const [acceptedPolicy, setAcceptedPolicy] = useState(false);
 
   const appServiceRef = useRef(new AppService());
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!acceptedPolicy) {
+      Swal.fire({
+        title: "Política de Privacidad",
+        text: "Debes aceptar nuestra política de privacidad para continuar",
+        icon: "warning",
+        confirmButtonText: "Entendido",
+        confirmButtonColor: "#8B6F47",
+      });
+      return;
+    }
+
     const form = e.currentTarget;
 
     const contacto = {
@@ -54,6 +69,11 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
         confirmButtonColor: "#8B6F47",
       });
     }
+  };
+
+  const handleAcceptPolicy = () => {
+    setAcceptedPolicy(true);
+    setShowPolicy(false);
   };
 
   return (
@@ -266,9 +286,40 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
                   />
                 </div>
+
+                {/* Checkbox de aceptación de políticas */}
+                <div className="mb-4 flex items-start">
+                  <div className="flex items-center h-5">
+                    <input
+                      id="policy-checkbox"
+                      type="checkbox"
+                      checked={acceptedPolicy}
+                      onChange={(e) => setAcceptedPolicy(e.target.checked)}
+                      className="w-4 h-4 text-ternary-1 bg-gray-100 border-gray-300 rounded focus:ring-ternary-1 focus:ring-2"
+                    />
+                  </div>
+                  <label
+                    htmlFor="policy-checkbox"
+                    className="ml-2 text-sm font-opensans text-gray-700"
+                  >
+                    Acepto la{" "}
+                    <button
+                      type="button"
+                      onClick={() => setShowPolicy(true)}
+                      className="text-ternary-1 hover:text-ternary-3 underline"
+                    >
+                      Política de Privacidad
+                    </button>
+                  </label>
+                </div>
+
                 <button
                   type="submit"
-                  className="w-full font-opensans bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-white-1 font-medium py-3 px-4 rounded-md transition-colors"
+                  className={`w-full font-opensans text-white-1 font-medium py-3 px-4 rounded-md transition-colors ${
+                    acceptedPolicy
+                      ? "bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 cursor-pointer"
+                      : "bg-gray-400 cursor-not-allowed"
+                  }`}
                 >
                   Enviar Mensaje
                 </button>
@@ -277,6 +328,13 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
           </div>
         </div>
       </section>
+
+      {/* Modal de Política de Privacidad */}
+      <PrivacyPolicyModal
+        isOpen={showPolicy}
+        onClose={() => setShowPolicy(false)}
+        onAccept={handleAcceptPolicy}
+      />
     </main>
   );
 };
