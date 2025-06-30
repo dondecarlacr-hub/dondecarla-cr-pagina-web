@@ -22,7 +22,6 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     const form = e.currentTarget;
 
     const contacto = {
@@ -30,7 +29,8 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
       email: (form.elements.namedItem("email") as HTMLInputElement).value,
       telefono: (form.elements.namedItem("phone") as HTMLInputElement).value,
       asunto: (form.elements.namedItem("subject") as HTMLInputElement).value,
-      mensaje: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+      mensaje: (form.elements.namedItem("message") as HTMLTextAreaElement)
+        .value,
     };
 
     try {
@@ -57,9 +57,9 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
   };
 
   return (
-    <div className="w-full bg-background-white">
+    <main className="w-full bg-background-white">
       {/* Banner */}
-      <section className="relative bg-[#2D1B14] text-white">
+      <header className="relative bg-[#2D1B14] text-white">
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[50vh] md:h-[25vh] flex items-center justify-center overflow-hidden">
           <img
@@ -78,25 +78,29 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   : "opacity-0"
               }`}
             >
-              <span className="text-3xl font-merriweather font-bold">Contáctanos</span>
+              <span className="text-3xl font-merriweather font-bold">
+                Contáctanos
+              </span>
             </h1>
             <p
               className={`font-opensans text-xl md:text-2xl max-w-2xl mx-auto ${
-                bannerVisible ? "animate__animated animate__fadeInUp" : "opacity-0"
+                bannerVisible
+                  ? "animate__animated animate__fadeInUp"
+                  : "opacity-0"
               }`}
             >
               Estamos listos para atenderte
             </p>
           </div>
         </div>
-      </section>
+      </header>
 
       {/* Información y Formulario */}
       <section className="py-16 bg-background-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Información */}
-            <div
+            <aside
               ref={infoRef}
               className={`${
                 infoVisible
@@ -108,19 +112,24 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                 Información de Contacto
               </h2>
               <div className="space-y-6 mb-8">
-                <div className="flex items-start">
+                <article className="flex items-start">
                   <MapPinIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="font-lato font-semibold text-primary">Dirección</h3>
+                    <h3 className="font-lato font-semibold text-primary">
+                      Dirección
+                    </h3>
                     <p className="font-opensans text-white-2">
-                      100m Este del Parque Central, Juan Viñas, Cartago, Costa Rica
+                      100m Este del Parque Central, Juan Viñas, Cartago, Costa
+                      Rica
                     </p>
                   </div>
-                </div>
-                <div className="flex items-start">
+                </article>
+                <article className="flex items-start">
                   <ClockIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="font-lato font-semibold text-primary">Horario</h3>
+                    <h3 className="font-lato font-semibold text-primary">
+                      Horario
+                    </h3>
                     <p className="font-opensans text-white-2">
                       Lunes: 11:00 AM - 8:00 PM <br />
                       Martes: Cerrado <br />
@@ -131,19 +140,23 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                       Domingo: 11:00 AM - 9:00 PM <br />
                     </p>
                   </div>
-                </div>
-                <div className="flex items-start">
+                </article>
+                <article className="flex items-start">
                   <MessageCircleIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="font-lato font-semibold text-primary">WhatsApp</h3>
+                    <h3 className="font-lato font-semibold text-primary">
+                      WhatsApp
+                    </h3>
                     <p className="font-opensans text-white-2">+506 8509-8985</p>
                     <WhatsAppButton className="inline-block mt-2 bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-white-1 font-medium py-2 px-4 rounded-md transition-colors" />
                   </div>
-                </div>
-                <div className="flex items-start">
+                </article>
+                <article className="flex items-start">
                   <InstagramIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="font-lato font-semibold text-primary">Instagram</h3>
+                    <h3 className="font-lato font-semibold text-primary">
+                      Instagram
+                    </h3>
                     <a
                       href="https://www.instagram.com/p/DBUyxSAx3kf/"
                       target="_blank"
@@ -153,7 +166,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                       @dondecarla
                     </a>
                   </div>
-                </div>
+                </article>
               </div>
               <div className="h-64 md:h-80 rounded-lg overflow-hidden shadow-md">
                 <iframe
@@ -167,10 +180,10 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   title="Mapa de Donde Carla"
                 />
               </div>
-            </div>
+            </aside>
 
             {/* Formulario */}
-            <div
+            <section
               ref={formRef}
               className={`${
                 formVisible
@@ -186,44 +199,86 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                 className="bg-background-beige p-6 rounded-lg shadow-md"
               >
                 <div className="mb-4">
-                  <label htmlFor="name" className="block font-opensans text-secondary-1 font-medium mb-2">
+                  <label
+                    htmlFor="name"
+                    className="block font-opensans text-secondary-1 font-medium mb-2"
+                  >
                     Nombre
                   </label>
-                  <input type="text" id="name" required className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-1 focus:border-transparent" />
+                  <input
+                    type="text"
+                    id="name"
+                    required
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-1 focus:border-transparent"
+                  />
                 </div>
                 <div className="mb-4">
-                  <label htmlFor="email" className="block font-opensans text-secondary-1 font-medium mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block font-opensans text-secondary-1 font-medium mb-2"
+                  >
                     Correo Electrónico
                   </label>
-                  <input type="email" id="email" required className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent" />
+                  <input
+                    type="email"
+                    id="email"
+                    required
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
+                  />
                 </div>
                 <div className="mb-4">
-                  <label htmlFor="phone" className="block font-opensans text-secondary-1 font-medium mb-2">
+                  <label
+                    htmlFor="phone"
+                    className="block font-opensans text-secondary-1 font-medium mb-2"
+                  >
                     Teléfono
                   </label>
-                  <input type="tel" id="phone" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent" />
+                  <input
+                    type="tel"
+                    id="phone"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
+                  />
                 </div>
                 <div className="mb-4">
-                  <label htmlFor="subject" className="block font-opensans text-secondary-1 font-medium mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block font-opensans text-secondary-1 font-medium mb-2"
+                  >
                     Asunto
                   </label>
-                  <input type="text" id="subject" required className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent" />
+                  <input
+                    type="text"
+                    id="subject"
+                    required
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
+                  />
                 </div>
                 <div className="mb-6">
-                  <label htmlFor="message" className="block font-opensans text-secondary-1 font-medium mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block font-opensans text-secondary-1 font-medium mb-2"
+                  >
                     Mensaje
                   </label>
-                  <textarea id="message" rows={5} required className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent" />
+                  <textarea
+                    id="message"
+                    rows={5}
+                    required
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
+                  />
                 </div>
-                <button type="submit" className="w-full font-opensans bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-white-1 font-medium py-3 px-4 rounded-md transition-colors">
+                <button
+                  type="submit"
+                  className="w-full font-opensans bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-white-1 font-medium py-3 px-4 rounded-md transition-colors"
+                >
                   Enviar Mensaje
                 </button>
               </form>
-            </div>
+            </section>
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 };
 

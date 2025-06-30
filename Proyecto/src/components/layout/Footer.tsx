@@ -13,13 +13,18 @@ const Footer: React.FC<FooterProps> = ({ useElementOnScreen }) => {
       <Order useElementOnScreen={useElementOnScreen} />
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="font-lato text-xl font-semibold mb-4">Donde Carla</h3>
+          <section aria-labelledby="footer-about">
+            <h3
+              id="footer-about"
+              className="font-lato text-xl font-semibold mb-4"
+            >
+              Donde Carla
+            </h3>
             <p className="font-opensans text-sm mb-4">
               Comida casera, de alta calidad y con un servicio rápido y
               personalizado en Juan Viñas, Costa Rica.
             </p>
-            <div className="flex space-x-4">
+            <nav aria-label="Redes sociales" className="flex space-x-4">
               <a
                 href="https://www.instagram.com/p/DBUyxSAx3kf/"
                 target="_blank"
@@ -36,9 +41,10 @@ const Footer: React.FC<FooterProps> = ({ useElementOnScreen }) => {
               >
                 <PhoneIcon className="w-6 h-6 hover:text-secondary-3 active:text-secondary-2 transition-colors" />
               </a>
-            </div>
-          </div>
-          <div>
+            </nav>
+          </section>
+
+          <nav aria-label="Enlaces del sitio">
             <h3 className="text-xl font-semibold mb-4">Enlaces</h3>
             <ul className="space-y-2">
               <li>
@@ -74,9 +80,12 @@ const Footer: React.FC<FooterProps> = ({ useElementOnScreen }) => {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div>
-            <h3 className="font-lato text-xl font-semibold mb-4">Información</h3>
+          </nav>
+
+          <address className="not-italic">
+            <h3 className="font-lato text-xl font-semibold mb-4">
+              Información
+            </h3>
             <div className="space-y-3">
               <div className="flex items-start">
                 <MapPinIcon className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
@@ -93,13 +102,14 @@ const Footer: React.FC<FooterProps> = ({ useElementOnScreen }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </address>
         </div>
+
         <div className="font-opensans mt-8 pt-6 text-center">
-          <p>
+          <small>
             © {new Date().getFullYear()} Donde Carla. Todos los derechos
             reservados.
-          </p>
+          </small>
         </div>
       </div>
     </footer>
