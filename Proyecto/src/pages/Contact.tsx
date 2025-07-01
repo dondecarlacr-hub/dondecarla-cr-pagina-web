@@ -83,8 +83,9 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[50vh] md:h-[25vh] flex items-center justify-center overflow-hidden">
           <img
-            src="assets/banner.jpeg"
+            src="assets/banner.jpg"
             alt="Interior de Donde Carla"
+            loading="lazy"
             className="absolute inset-0 w-full h-full object-cover brightness-50 contrast-125"
           />
           <div

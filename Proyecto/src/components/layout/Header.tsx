@@ -89,7 +89,7 @@ const Header = () => {
             </NavLink>
             <WhatsAppButton
               label="Ordenar"
-              className="w-36 text-sm py-2.5 px-4 bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-white-1 rounded-md"
+              className="w-36 text-sm py-2.5 px-4 bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-white-1 rounded-md hvr-pulse-grow"
             />
           </nav>
         </div>
@@ -159,7 +159,7 @@ const Header = () => {
           <div className="font-opensans mt-12">
             <WhatsAppButton
               label="Ordenar"
-              className="w-full text-sm bg-[#2D1B14] hover:bg-[#1A110D] text-white rounded-md"
+              className="w-full text-sm bg-[#2D1B14] hover:bg-[#1A110D] text-white rounded-md hvr-pulse-grow"
             />
           </div>
 

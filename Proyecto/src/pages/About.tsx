@@ -24,8 +24,9 @@ const About: React.FC<AboutProps> = ({ useElementOnScreen }) => {
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[28vh] md:h-[35vh] flex items-center justify-center overflow-hidden">
           <img
-            src="assets/banner.jpeg"
+            src="assets/banner.jpg"
             alt="Interior de Donde Carla"
+            loading="lazy"
             className="absolute inset-0 w-full h-full object-cover brightness-50 contrast-125"
           />
           <div
@@ -117,8 +118,9 @@ const About: React.FC<AboutProps> = ({ useElementOnScreen }) => {
               }`}
             >
               <img
-                src="assets/nuestra-historia.jpeg"
+                src="assets/nuestra-historia.jpg"
                 alt="Cocineros preparando comida en Donde Carla"
+                loading="lazy"
                 className="w-full h-auto"
               />
             </figure>

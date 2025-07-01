@@ -122,7 +122,7 @@
       "price": "2500",
       "description": "Clásico sándwich de jamón y queso con pan fresco.",
       "category": "sandwiches",
-      "image": "assets/productos/sandwiches/producto-sandwich-de-jamon-y-queso.avif",
+      "image": "assets/productos/sandwiches/producto-sandwich-de-jamon-y-queso.jpg",
       "alt": "Sándwich de jamón y queso",
       "isSpecial": false
     },
@@ -140,7 +140,7 @@
       "price": "2500",
       "description": "Sándwich con tierno pollo y vegetales frescos.",
       "category": "sandwiches",
-      "image": "assets/productos/sandwiches/producto-sandwich-de-pollo.webp",
+      "image": "assets/productos/sandwiches/producto-sandwich-de-pollo.jpg",
       "alt": "Sándwich de pollo",
       "isSpecial": false
     },
@@ -203,7 +203,7 @@
       "price": "3000",
       "description": "Frijoles, pico de gallo, guacamole, carne mechada, salsa de queso, mayonesa de la casa y natilla.",
       "category": "papas-fritas",
-      "image": "assets/productos/papas fritas/producto-papas-de-la-casa.webp",
+      "image": "assets/productos/papas fritas/producto-papas-de-la-casa.jpg",
       "alt": "Papas de la casa",
       "isSpecial": true
     },
@@ -275,7 +275,7 @@
       "price": "3000",
       "description": "Frijoles, guacamole, tomate, lechuga, carne mechada, salsa de queso y mayonesa de la casa acompañado de papas fritas.",
       "category": "tortilla-harina",
-      "image": "assets/productos/tortilla de harina/productos-burrito-de-carne-con-papas.webp",
+      "image": "assets/productos/tortilla de harina/productos-burrito-de-carne-con-papas.jpg",
       "alt": "Burrito de carne",
       "isSpecial": false
     },
@@ -284,7 +284,7 @@
       "price": "3000",
       "description": "Lechuga, tomate, salsa de queso y mayonesa de la casa acompañado de papas fritas.",
       "category": "tortilla-harina",
-      "image": "assets/productos/tortilla de harina/productos-burrito-de-pollo-con-papas.jpeg",
+      "image": "assets/productos/tortilla de harina/productos-burrito-de-pollo-con-papas.jpg",
       "alt": "Burrito de pollo",
       "isSpecial": false
     },
@@ -311,7 +311,7 @@
       "price": "3000",
       "description": "Tortilla de harina frita rellena de jamón, queso amarillo y carne mechada acompañado de ensalada y papas fritas.",
       "category": "tortilla-harina",
-      "image": "assets/productos/tortilla de harina/productos-flautas-de-carne.webp",
+      "image": "assets/productos/tortilla de harina/productos-flautas-de-carne.jpg",
       "alt": "Flauta de carne",
       "isSpecial": false
     },
@@ -320,7 +320,7 @@
       "price": "3000",
       "description": "Triangulitos fritos rellenos de carne mechada, acompañado de ensalada y papas fritas.",
       "category": "tortilla-harina",
-      "image": "assets/productos/tortilla de harina/productos-triangulitos-de-carne-con-ensalada-y-papas.jpeg",
+      "image": "assets/productos/tortilla de harina/productos-triangulitos-de-carne-con-ensalada-y-papas.jpg",
       "alt": "Triangulitos de carne",
       "isSpecial": false
     },
@@ -329,7 +329,7 @@
       "price": "3000",
       "description": "Acompañado de salsa tártara y papas fritas.",
       "category": "pescado",
-      "image": "assets/productos/pescado/producto-deditos-de-pescado.png",
+      "image": "assets/productos/pescado/producto-deditos-de-pescado.jpg",
       "alt": "Deditos de pescado",
       "isSpecial": false
     },
@@ -356,7 +356,7 @@
       "price": "3000",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "pescado",
-      "image": "assets/productos/pescado/producto-chuleta-de-pescado.png",
+      "image": "assets/productos/pescado/producto-chuleta-de-pescado.jpg",
       "alt": "Chuleta de pescado",
       "isSpecial": false
     },
@@ -383,7 +383,7 @@
       "price": "3000",
       "description": "Frijoles molidos, carne mechada, lechuga, chimichurri acompañado de papas fritas.",
       "category": "tortilla-maiz",
-      "image": "assets/productos/tortilla de maiz/producto-chalupa-papas-y-pico-de-gallo.webp",
+      "image": "assets/productos/tortilla de maiz/producto-chalupa-papas-y-pico-de-gallo.jpg",
       "alt": "Chalupa",
       "isSpecial": false
     },
@@ -401,7 +401,7 @@
       "price": "3000",
       "description": "Arroz, frijoles, ensalada, papas fritas y refresco natural.",
       "category": "casados",
-      "image": "assets/productos/casados/producto-casado-de-fajitas-de-pollo.jfif",
+      "image": "assets/productos/casados/producto-casado-de-fajitas-de-pollo.jpeg",
       "alt": "Casado de fajitas de pollo",
       "isSpecial": false
     },
@@ -464,7 +464,7 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas. Opciones: Fajitas de pollo, Filete de pollo a la plancha, Filete de pollo empanizado, Fajitas de lomo, Fajitas mixtas.",
       "category": "pollo-lomo",
-      "image": "assets/productos/pollo y lomo/producto-filet-de-pollo-a-la-plancha-con-papas-y-ensalada.png",
+      "image": "assets/productos/pollo y lomo/producto-filet-de-pollo-a-la-plancha-con-papas-y-ensalada.jpg",
       "alt": "Plato de filete de pollo a la plancha con ensalada y papas fritas",
       "isSpecial": false
     },
@@ -491,7 +491,7 @@
       "price": "5000",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "pollo-lomo",
-      "image": "assets/productos/pollo y lomo/producto-fajitas-de-mixtas-con-papas-y-ensalada.png",
+      "image": "assets/productos/pollo y lomo/producto-fajitas-de-mixtas-con-papas-y-ensalada.jpg",
       "alt": "Fajitas mixtas",
       "isSpecial": true
     },
@@ -500,7 +500,7 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-pescado-milanesa-con-papas-y-ensalada.png",
+      "image": "assets/productos/camarones y pescado/producto-pescado-milanesa-con-papas-y-ensalada.jpg",
       "alt": "Plato de pescado a la milanesa con ensalada y papas fritas",
       "isSpecial": false
     },
@@ -509,7 +509,7 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-pescado-a-la-plancha-con-papas-y-ensalada.png",
+      "image": "assets/productos/camarones y pescado/producto-pescado-a-la-plancha-con-papas-y-ensalada.jpg",
       "alt": "Plato de pescado a la plancha con ensalada y papas fritas",
       "isSpecial": false
     },
@@ -518,7 +518,7 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-camarones-empanizados-con-papas-pico-de-gallo-y-guacamole.jpeg",
+      "image": "assets/productos/camarones y pescado/producto-camarones-empanizados-con-papas-pico-de-gallo-y-guacamole.jpg",
       "alt": "Plato de camarones empanizados con ensalada y papas fritas",
       "isSpecial": false
     },
@@ -527,7 +527,7 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-camarones-al-ajillo-con-ensalda-y-pure.jpeg",
+      "image": "assets/productos/camarones y pescado/producto-camarones-al-ajillo-con-ensalda-y-pure.jpg",
       "alt": "Plato de camarones al ajillo con ensalada y papas fritas",
       "isSpecial": false
     },
@@ -536,7 +536,7 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-arroz-con-camarones-con-papas-y-ensalada.jpeg",
+      "image": "assets/productos/camarones y pescado/producto-arroz-con-camarones-con-papas-y-ensalada.jpg",
       "alt": "Plato de arroz con camarones con ensalada y papas fritas",
       "isSpecial": false
     },
@@ -545,7 +545,7 @@
       "price": "5500",
       "description": "Pargo rojo entero fresco, acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-pargo-rojo-entero-con-ensalada.jpeg",
+      "image": "assets/productos/camarones y pescado/producto-pargo-rojo-entero-con-ensalada.jpg",
       "alt": "Pargo rojo entero",
       "isSpecial": true
     }

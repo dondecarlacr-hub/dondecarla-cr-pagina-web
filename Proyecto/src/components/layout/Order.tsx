@@ -36,7 +36,7 @@ const Order: React.FC<OrderProps> = ({ useElementOnScreen }) => {
             orderVisible ? "animate__animated animate__fadeIn" : "opacity-0"
           }`}
         >
-          <WhatsAppButton className="font-opensans w-full bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-sm py-2.5 px-4" />
+          <WhatsAppButton className="font-opensans w-full bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-sm py-2.5 px-4 hvr-pulse-grow" />
         </div>
       </div>
     </section>
