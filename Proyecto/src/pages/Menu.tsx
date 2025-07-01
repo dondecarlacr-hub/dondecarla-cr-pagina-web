@@ -110,6 +110,7 @@ const Menu: React.FC<MenuProps> = ({ useElementOnScreen }) => {
                       <img
                         src={category.image}
                         alt={category.alt}
+                        loading="lazy"
                         className="w-full h-full object-contain rounded-full"
                       />
                     </div>
@@ -150,6 +151,7 @@ const Menu: React.FC<MenuProps> = ({ useElementOnScreen }) => {
                 <img
                   src={item.image}
                   alt={item.alt}
+                  loading="lazy"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
@@ -169,7 +171,7 @@ const Menu: React.FC<MenuProps> = ({ useElementOnScreen }) => {
                       {getCategoryName(item.category)}
                     </span>
                     {item.isSpecial && (
-                      <span className="font-opensans inline-block bg-[#D4AF37] text-white text-xs px-2 py-1 rounded">
+                      <span className="font-opensans inline-block bg-golden-1 text-white text-xs px-2 py-1 rounded">
                         Especial
                       </span>
                     )}
@@ -199,7 +201,7 @@ const Menu: React.FC<MenuProps> = ({ useElementOnScreen }) => {
   );
 };
 
-const getCategoryName = (categoryId) => {
+const getCategoryName = (categoryId: string) => {
   const category = categories.find((cat) => cat.id === categoryId);
   return category ? category.name : "";
 };

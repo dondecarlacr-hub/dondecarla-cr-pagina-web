@@ -57,8 +57,9 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[50vh] md:h-[46vh] flex items-center justify-center overflow-hidden">
           <img
-            src="assets/banner.jpeg"
+            src="assets/banner.jpg"
             alt="Interior de Donde Carla"
+            loading="lazy"
             className="absolute object-cover inset-0 w-full h-full brightness-50 contrast-125"
           />
           <div
@@ -126,7 +127,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
                 className="font-opensans inline-flex items-center text-secondary-1 font-medium hover:text-secondary-3 active:text-secondary-2 transition-colors"
               >
                 Conoce nuestra historia
-                <ArrowRightIcon size={16} className="ml-2" />
+                <ArrowRightIcon size={16} className="ml-2 ciclo-slide-right" />
               </Link>
             </div>
             <div
@@ -140,6 +141,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
               <img
                 src="assets/bienvenida-imagen.jpg"
                 alt="Interior de Donde Carla"
+                loading="lazy"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -175,6 +177,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
                 <img
                   src={item.image}
                   alt={item.alt}
+                  loading="lazy"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
@@ -267,7 +270,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
                 }`}
               >
                 Ver ubicación y contacto
-                <ArrowRightIcon size={16} className="ml-2" />
+                <ArrowRightIcon size={16} className="ml-2 ciclo-slide-right" />
               </Link>
             </div>
             <div
@@ -279,8 +282,9 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
               }`}
             >
               <img
-                src="assets/local-donde-Carla.jpeg"
+                src="assets/local-donde-Carla.jpg"
                 alt="Exterior of Donde Carla restaurant"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -346,32 +350,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
   );
 };
 
-const featuredItems = [
-  {
-    name: "Casado Tradicional",
-    price: "4500",
-    description:
-      "Arroz, frijoles, ensalada, plátano maduro y su elección de proteína.",
-    image:
-      "https://images.unsplash.com/photo-1599789197514-47270cd526b4?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    name: "Arroz con Pollo",
-    price: "3800",
-    description: "Arroz salteado con pollo, vegetales y especias caseras.",
-    image:
-      "https://images.unsplash.com/photo-1594221708779-94832f4320d1?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    name: "Batido de Frutas",
-    price: "2200",
-    description: "Batido natural con las frutas más frescas de la temporada.",
-    image:
-      "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=2071&auto=format&fit=crop",
-  },
-];
-
-const getCategoryName = (categoryId) => {
+const getCategoryName = (categoryId: string) => {
   const category = categories.find((cat) => cat.id === categoryId);
   return category ? category.name : "";
 };
