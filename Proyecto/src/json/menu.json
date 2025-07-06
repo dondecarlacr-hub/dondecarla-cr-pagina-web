@@ -87,7 +87,7 @@
       "description": "Patacones crujientes acompañados de frijoles molidos y guacamole fresco.",
       "category": "entradas",
       "image": "assets/productos/entradas/producto-patacones-con-frijoles-molidos-carne-mechada-y-guacamole.jpeg",
-      "alt": "Patacones con frijoles y guacamole",
+      "alt": "Patacones con carne deshebrada, pico de gallo fresco, guacamole en recipiente central y fijoles negros molidos sobre base del patacon dorada",
       "isSpecial": false
     },
     {
@@ -96,7 +96,7 @@
       "description": "Papas fritas crujientes en porción individual.",
       "category": "entradas",
       "image": "assets/productos/entradas/producto-orden-de-papas-fritas.jpg",
-      "alt": "Orden de papas fritas",
+      "alt": "Orden de papas fritas delgadas servidas en bandeja de cartón con acompañamiento de salsa de tomate en recipiente blanco",
       "isSpecial": false
     },
     {
@@ -105,7 +105,7 @@
       "description": "Tortillas chips acompañadas de guacamole y frijoles molidos.",
       "category": "entradas",
       "image": "assets/productos/entradas/producto-chips-guacamole-y-frijoles.jpg",
-      "alt": "Chips con guacamole y frijoles",
+      "alt": "Chips de tortilla de maiz dorados servidos con dos salsas en bowls blancos, guacamole verde y frijoles molidos, sobre plato blanco",
       "isSpecial": false
     },
     {
@@ -114,7 +114,7 @@
       "description": "Deliciosas doraditas crocantes.",
       "category": "entradas",
       "image": "assets/productos/entradas/producto-doraditas.jpg",
-      "alt": "Doraditas crocantes",
+      "alt": "Chips de tortilla de maíz dorados bañados con salsa de tomate y mayonesa sobre un plato blanco",
       "isSpecial": false
     },
     {
@@ -123,7 +123,7 @@
       "description": "Clásico sándwich de jamón y queso con pan fresco.",
       "category": "sandwiches",
       "image": "assets/productos/sandwiches/producto-sandwich-de-jamon-y-queso.jpg",
-      "alt": "Sándwich de jamón y queso",
+      "alt": "Sándwich de pan francés con jamón rosado en lonchas, queso, tomate y lechuga sobre plato blanco",
       "isSpecial": false
     },
     {
@@ -132,7 +132,7 @@
       "description": "Sándwich relleno de jugosa carne mechada.",
       "category": "sandwiches",
       "image": "assets/productos/sandwiches/producto-sandwich-de-carne-mechada.jpeg",
-      "alt": "Sándwich de carne mechada",
+      "alt": "Sándwich de pan integral con semillas, relleno de carne deshebrada, lechuga, tomate, salsa de tomate y mayonesa sobre plato blanco",
       "isSpecial": false
     },
     {
@@ -141,7 +141,7 @@
       "description": "Sándwich con tierno pollo y vegetales frescos.",
       "category": "sandwiches",
       "image": "assets/productos/sandwiches/producto-sandwich-de-pollo.jpg",
-      "alt": "Sándwich de pollo",
+      "alt": "Sándwich submarino con pollo a la plancha, queso derretido, tomate, lechuga sobre papel encerado y tabla de madera",
       "isSpecial": false
     },
     {
@@ -150,7 +150,7 @@
       "description": "Empanada rellena de queso derretido.",
       "category": "empanadas",
       "image": "assets/productos/empanadas/producto-empanada-de-queso.jpeg",
-      "alt": "Empanada de queso",
+      "alt": "Empanadas doradas fritas de masa con condimentos, dispuestas en bandeja blanca",
       "isSpecial": false
     },
     {
@@ -159,7 +159,7 @@
       "description": "Empanada rellena de frijoles molidos y queso.",
       "category": "empanadas",
       "image": "assets/productos/empanadas/producto-empanada-_de_frijol_y_queso.jpeg",
-      "alt": "Empanada de frijol con queso",
+      "alt": "Empanadas doradas fritas con relleno de frijoles negros y queso, servidas con salsa verde en bowl sobre tabla de madera",
       "isSpecial": false
     },
     {
@@ -168,7 +168,7 @@
       "description": "Empanada rellena de sabrosa carne mechada.",
       "category": "empanadas",
       "image": "assets/productos/empanadas/producto-empanada-de-carne.jpg",
-      "alt": "Empanada de carne mechada",
+      "alt": "Empanadas doradas fritas rellenas de carne deshebrada con una mordida mostrando el interior, sobre plato gris",
       "isSpecial": false
     },
     {
@@ -176,8 +176,8 @@
       "price": "3000",
       "description": "Pan brioche, filete de pollo empanizado, coleslaw, queso americano, lechuga, salsa chipotle acompañada de papas fritas.",
       "category": "hamburguesas",
-      "image": "assets/productos/hamburguesas/producto-hamburguesa-de-la-casa.jpeg",
-      "alt": "Hamburguesa de la casa",
+      "image": "2assets/productos/hamburguesas/producto-hamburguesa-de-la-casa.jpeg",
+      "alt": "Hamburguesa de pollo empanizado con pan de semillas, queso derretido, coleslaw, lechuga y salsa sobre plato blanco con fondo de cielo",
       "isSpecial": true
     },
     {
@@ -185,8 +185,8 @@
       "price": "4500",
       "description": "Pan brioche, Torta angus 160g, mayonesa de la casa, guacamole, lechuga, tomate, cebolla, tocineta acompañada de papas fritas.",
       "category": "hamburguesas",
-      "image": "assets/productos/hamburguesas/producto-hamburguesa-angus.jpg",
-      "alt": "Hamburguesa Angus",
+      "image": "2assets/productos/hamburguesas/producto-hamburguesa-angus.jpg",
+      "alt": "Hamburguesa con pan de semillas, carne a la parrilla, guacamole, cebolla morada, tomate, lechuga y tocineta, sobre plato blanco con fondo de cielo",
       "isSpecial": true
     },
     {
@@ -194,8 +194,8 @@
       "price": "1500",
       "description": "Pan, lechuga, tomate, jamón queso torta y salsas acompañada de papas fritas.",
       "category": "hamburguesas",
-      "image": "assets/productos/hamburguesas/producto-hamburguesa-especial-pequeña.jpg",
-      "alt": "Hamburguesa especial pequeña",
+      "image": "2assets/productos/hamburguesas/producto-hamburguesa-especial-pequeña.jpg",
+      "alt": "Hamburguesa clásica con pan de ajonjolí, carne, queso amarillo, lechuga, tomate, acompañada de papas fritas sobre tabla de madera",
       "isSpecial": false
     },
     {
@@ -222,7 +222,7 @@
       "description": "Salsa de queso, natilla y tocineta.",
       "category": "papas-fritas",
       "image": "assets/productos/papas fritas/producto-bacon-fries.jpeg",
-      "alt": "Papas con bacon",
+      "alt": "Papas fritas cubiertas con queso derretido amarillo, crema blanca y tiras de tocineta crujiente en recipiente de cartón blanco",
       "isSpecial": false
     },
     {
@@ -231,7 +231,7 @@
       "description": "Porción pequeña de papas fritas.",
       "category": "papas-fritas",
       "image": "assets/productos/papas fritas/producto-orden-de-papas-fritas-pequeñas.jpg",
-      "alt": "Orden pequeña de papas fritas",
+      "alt": "Papas fritas doradas en canasta de papel cuadriculado rojo acompañadas de salsa de tomate en bowl blanco",
       "isSpecial": false
     },
     {
@@ -240,7 +240,7 @@
       "description": "Porción grande de papas fritas.",
       "category": "papas-fritas",
       "image": "assets/productos/papas fritas/producto-orden-de-papas-fritas-grandes.jpeg",
-      "alt": "Orden grande de papas fritas",
+      "alt": "Papas fritas doradas servidas en contenedor de cartón blanco para llevar",
       "isSpecial": false
     },
     {
