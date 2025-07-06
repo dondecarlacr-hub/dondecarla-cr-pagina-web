@@ -176,7 +176,7 @@
       "price": "3000",
       "description": "Pan brioche, filete de pollo empanizado, coleslaw, queso americano, lechuga, salsa chipotle acompañada de papas fritas.",
       "category": "hamburguesas",
-      "image": "2assets/productos/hamburguesas/producto-hamburguesa-de-la-casa.jpeg",
+      "image": "assets/productos/hamburguesas/producto-hamburguesa-de-la-casa.jpeg",
       "alt": "Hamburguesa de pollo empanizado con pan de semillas, queso derretido, coleslaw, lechuga y salsa sobre plato blanco con fondo de cielo",
       "isSpecial": true
     },
@@ -185,7 +185,7 @@
       "price": "4500",
       "description": "Pan brioche, Torta angus 160g, mayonesa de la casa, guacamole, lechuga, tomate, cebolla, tocineta acompañada de papas fritas.",
       "category": "hamburguesas",
-      "image": "2assets/productos/hamburguesas/producto-hamburguesa-angus.jpg",
+      "image": "assets/productos/hamburguesas/producto-hamburguesa-angus.jpg",
       "alt": "Hamburguesa con pan de semillas, carne a la parrilla, guacamole, cebolla morada, tomate, lechuga y tocineta, sobre plato blanco con fondo de cielo",
       "isSpecial": true
     },
@@ -194,7 +194,7 @@
       "price": "1500",
       "description": "Pan, lechuga, tomate, jamón queso torta y salsas acompañada de papas fritas.",
       "category": "hamburguesas",
-      "image": "2assets/productos/hamburguesas/producto-hamburguesa-especial-pequeña.jpg",
+      "image": "assets/productos/hamburguesas/producto-hamburguesa-especial-pequeña.jpg",
       "alt": "Hamburguesa clásica con pan de ajonjolí, carne, queso amarillo, lechuga, tomate, acompañada de papas fritas sobre tabla de madera",
       "isSpecial": false
     },
@@ -204,7 +204,7 @@
       "description": "Frijoles, pico de gallo, guacamole, carne mechada, salsa de queso, mayonesa de la casa y natilla.",
       "category": "papas-fritas",
       "image": "assets/productos/papas fritas/producto-papas-de-la-casa.jpg",
-      "alt": "Papas de la casa",
+      "alt": "Primer plano de papas fritas cargadas con carne mechada, queso fundido, guacamole, pico de gallo, mayonesa de la casa y natilla",
       "isSpecial": true
     },
     {
@@ -213,7 +213,7 @@
       "description": "Salsa de queso, natilla, pico de gallo y guacamole con 10 camarones empanizados.",
       "category": "papas-fritas",
       "image": "assets/productos/papas fritas/producto-papas-dode-carla.jpeg",
-      "alt": "Papas Donde Carla con camarones",
+      "alt": "Plato blanco con papas fritas cubiertas con camarones empanizados, guacamole fresco y pico de gallo, aderezadas con salsa de queso y mayonesa",
       "isSpecial": true
     },
     {
@@ -249,7 +249,7 @@
       "description": "Papas fritas con salchichas y salsas.",
       "category": "papas-fritas",
       "image": "assets/productos/papas fritas/producto-orden-de-salchipapas.jpg",
-      "alt": "Salchipapas",
+      "alt": "Plato tipo bowl de color blanco con papas fritas y rodajas de salchicha, cubierto con salsa de tomate y salsa mayonesa",
       "isSpecial": false
     },
     {
@@ -258,7 +258,7 @@
       "description": "Acompañado de 5 patacones, frijoles molidos y ensalada.",
       "category": "otros-platos",
       "image": "assets/productos/otros platos/producto-plato-de-chicharrones.jpg",
-      "alt": "Plato de chicharrones",
+      "alt": "Porción de chicharrones crujientes espolvoreados con sal, acompañados de trozos de limón y salsas en recipientes blancos, y todo sobre una tabla de madera",
       "isSpecial": false
     },
     {
@@ -266,8 +266,8 @@
       "price": "3000",
       "description": "Frijoles molidos, carne mechada, pico de gallo y guacamole.",
       "category": "otros-platos",
-      "image": "assets/productos/otros platos/producto-plato-de-canastas-de-patacoenes-con-pico-de-gallo.jpeg",
-      "alt": "Canastas de patacón",
+      "image": "assets/productos/otros platos/producto-plato-de-canastas-de-patacones-con-pico-de-gallo.jpeg",
+      "alt": "Patacones con forma de canastas rellenos de frijoles negros, ensalada fresca compuesta de pico de gallo y lechuga acompañados de un limón y chicharrones crujientes dentro de un recipiente blanco de poliestireno",
       "isSpecial": false
     },
     {
@@ -276,7 +276,7 @@
       "description": "Frijoles, guacamole, tomate, lechuga, carne mechada, salsa de queso y mayonesa de la casa acompañado de papas fritas.",
       "category": "tortilla-harina",
       "image": "assets/productos/tortilla de harina/productos-burrito-de-carne-con-papas.jpg",
-      "alt": "Burrito de carne",
+      "alt": "Burrito de carne mechada y papas fritas cortado por la mitad, servido en un plato blanco con más papas y una salsa cremosa al lado",
       "isSpecial": false
     },
     {
@@ -285,7 +285,7 @@
       "description": "Lechuga, tomate, salsa de queso y mayonesa de la casa acompañado de papas fritas.",
       "category": "tortilla-harina",
       "image": "assets/productos/tortilla de harina/productos-burrito-de-pollo-con-papas.jpg",
-      "alt": "Burrito de pollo",
+      "alt": "Burritos de pollo cortado por la mitad, servidos en un plato blanco con una porción generosa de papas fritas",
       "isSpecial": false
     },
     {
@@ -294,7 +294,7 @@
       "description": "Lechuga, tomate, salsa de queso y mayonesa de la casa acompañado de papas fritas.",
       "category": "tortilla-harina",
       "image": "assets/productos/tortilla de harina/productos-burrito-de-camaron-empanizado.jpg",
-      "alt": "Burrito de camarones",
+      "alt": "Dos mitades de burrito de camarón empanizado, mostrando el relleno de camarones y lechuga",
       "isSpecial": false
     },
     {
@@ -303,7 +303,7 @@
       "description": "Frijoles molidos, queso mozzarella y carne mechada, acompañado de papas fritas.",
       "category": "tortilla-harina",
       "image": "assets/productos/tortilla de harina/productos-quesadilla-de-carne.jpg",
-      "alt": "Quesadilla de carne",
+      "alt": "Pila de quesadillas de tortilla de harina rellenas de carne mechada con queso derretido, lechuga y tomate, acompañadas de un gajo de limón todo sobre un plato blanco",
       "isSpecial": false
     },
     {
@@ -312,7 +312,7 @@
       "description": "Tortilla de harina frita rellena de jamón, queso amarillo y carne mechada acompañado de ensalada y papas fritas.",
       "category": "tortilla-harina",
       "image": "assets/productos/tortilla de harina/productos-flautas-de-carne.jpg",
-      "alt": "Flauta de carne",
+      "alt": "Flautas de carne bañadas en salsa blanca con trozos de lechuga, crema y queso desmoronado, acompañadas de papas asadas todo sobre un plato blanco",
       "isSpecial": false
     },
     {
@@ -321,7 +321,7 @@
       "description": "Triangulitos fritos rellenos de carne mechada, acompañado de ensalada y papas fritas.",
       "category": "tortilla-harina",
       "image": "assets/productos/tortilla de harina/productos-triangulitos-de-carne-con-ensalada-y-papas.jpg",
-      "alt": "Triangulitos de carne",
+      "alt": "Pila de tortillas en forma de triangulitos dorada rellena de carne bañadas con queso derretido, mayonesa y acompañadas de papas fritas y ensalada de lechuga y tomate, bañadas en salsa de tomate y mayonesa sobre un plato blanco",
       "isSpecial": false
     },
     {
@@ -330,7 +330,7 @@
       "description": "Acompañado de salsa tártara y papas fritas.",
       "category": "pescado",
       "image": "assets/productos/pescado/producto-deditos-de-pescado.jpg",
-      "alt": "Deditos de pescado",
+      "alt": "Cuatro dedos de pescado empanizados con un trozo mordido, acompañados de papas fritas y salsa tártara en un plato blanco",
       "isSpecial": false
     },
     {
@@ -348,7 +348,7 @@
       "description": "Acompañado de ensalada, salsa tártara y papas fritas.",
       "category": "pescado",
       "image": "assets/productos/pescado/producto-pescado-empanizado-con-papas-y-ensalada.jpeg",
-      "alt": "Pescado empanizado",
+      "alt": "Pescado empanizado con una porción de papas fritas y ensalada fresca, adornado con gajos de limón y sobre un plato blanco en una mesa de madera",
       "isSpecial": false
     },
     {
@@ -357,7 +357,7 @@
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "pescado",
       "image": "assets/productos/pescado/producto-chuleta-de-pescado.jpg",
-      "alt": "Chuleta de pescado",
+      "alt": "Chuleta de pescado empanizada servida en un plato blanco con papas fritas y ensalada fresca con vegetales en julianas",
       "isSpecial": false
     },
     {
@@ -366,7 +366,7 @@
       "description": "Acompañado de repollo, pico de gallo y papas fritas.",
       "category": "tortilla-maiz",
       "image": "assets/productos/tortilla de maiz/producto-taco-sencillo-con-papas-y-pico-de-gallo.jpg",
-      "alt": "Taco sencillo",
+      "alt": "Un taco frito grande con repollo, ketchup y mostaza, servido en un recipiente para llevar con papas fritas cubiertas de ketchup, mayonesa y mostaza",
       "isSpecial": false
     },
     {
@@ -375,7 +375,7 @@
       "description": "Acompañado de repollo, pico de gallo y papas fritas.",
       "category": "tortilla-maiz",
       "image": "assets/productos/tortilla de maiz/producto-taco-doble-especial-con-papas-y-pico-de-gallo.jpg",
-      "alt": "Taco doble especial",
+      "alt": "Plato rectangular blanco con cuatro tacos fritos cubiertos de salsa, acompañados de papas fritas, pico de gallo, lechuga y tres salsas en recipientes individuales",
       "isSpecial": false
     },
     {
@@ -384,7 +384,7 @@
       "description": "Frijoles molidos, carne mechada, lechuga, chimichurri acompañado de papas fritas.",
       "category": "tortilla-maiz",
       "image": "assets/productos/tortilla de maiz/producto-chalupa-papas-y-pico-de-gallo.jpg",
-      "alt": "Chalupa",
+      "alt": "Tortilla de maiz frita y dorada con frijoles molidos, carne molida, queso, guacamole y pico de gallo, servida sobre una tabla de madera",
       "isSpecial": false
     },
     {
@@ -393,7 +393,7 @@
       "description": "Frijoles molidos, carne mechada, pico de gallo, guacamole, salsa de queso, salsa tomate, mayonesa de la casa y natilla.",
       "category": "tortilla-maiz",
       "image": "assets/productos/tortilla de maiz/producto-nachos-donde-carla.jpg",
-      "alt": "Nachos Donde Carla",
+      "alt": "Un plato de nachos con carne deshebrada, jalapeños, pico de gallo y queso, con un vaso alto de bebida amarilla al fondo",
       "isSpecial": true
     },
     {
@@ -402,7 +402,7 @@
       "description": "Arroz, frijoles, ensalada, papas fritas y refresco natural.",
       "category": "casados",
       "image": "assets/productos/casados/producto-casado-de-fajitas-de-pollo.jpeg",
-      "alt": "Casado de fajitas de pollo",
+      "alt": "Plato de casado con fajitas de pollo, arroz, frijoles, papas fritas y ensalada fresca con aderezo blanco, con un plátano maduro frito",
       "isSpecial": false
     },
     {
@@ -411,7 +411,7 @@
       "description": "Arroz, frijoles, ensalada, papas fritas y refresco natural.",
       "category": "casados",
       "image": "assets/productos/casados/producto-casado-de-fajitas-de-lomo.jpg",
-      "alt": "Casado de fajitas de lomo",
+      "alt": "Un plato blanco con un casado de fajitas de lomo, frijoles, arroz, ensalada, y plátanos maduros fritos, servido sobre una mesa de vidrio con vasos de agua al fondo",
       "isSpecial": false
     },
     {
@@ -420,7 +420,7 @@
       "description": "Arroz, frijoles, ensalada, papas fritas y refresco natural.",
       "category": "casados",
       "image": "assets/productos/casados/producto-casado-de-fajitas-mixtas.jpg",
-      "alt": "Casado de fajitas mixtas",
+      "alt": "Casado de fajitas mixtas de res y pollo con pimientos y cebolla, arroz, frijoles, ensalada y plátanos maduros fritos",
       "isSpecial": false
     },
     {
@@ -429,7 +429,7 @@
       "description": "Arroz, frijoles, ensalada, papas fritas y refresco natural.",
       "category": "casados",
       "image": "assets/productos/casados/producto-casado-de-chuleta.jpg",
-      "alt": "Casado de chuleta",
+      "alt": "Un plato blanco con una chuleta de cerdo encebollada, arroz blanco, frijoles negros, ensalada fresca y un plátano maduro frito, con un pequeño recipiente de picadillo, sobre un mantel tejido",
       "isSpecial": false
     },
     {
@@ -438,7 +438,7 @@
       "description": "Arroz, frijoles, ensalada, papas fritas y refresco natural.",
       "category": "casados",
       "image": "assets/productos/casados/producto-casado-de-filet-de-pescado.jpg",
-      "alt": "Casado de chuleta de pescado",
+      "alt": "Un plato blanco con un casado de filet de pescado, arroz, frijoles en salsa, ensalada de repollo y tostones de plátano verde, sobre una superficie gris",
       "isSpecial": false
     },
     {
@@ -447,7 +447,7 @@
       "description": "Arroz, frijoles, ensalada, papas fritas y refresco natural.",
       "category": "casados",
       "image": "assets/productos/casados/producto-casado-de-pesacado.jpeg",
-      "alt": "Casado de pescado",
+      "alt": "Un casado de pescado empanizado, arroz blanco, puré de papa y ensalada con aguacate, presentado en un recipiente blanco para llevar",
       "isSpecial": false
     },
     {
