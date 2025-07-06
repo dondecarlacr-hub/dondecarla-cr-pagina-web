@@ -456,7 +456,7 @@
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "pollo-lomo",
       "image": "assets/productos/pollo y lomo/producto-fajitas-de-pollo-con-papas-y-ensalada.jpg",
-      "alt": "Plato de fajitas de pollo con ensalada y papas fritas",
+      "alt": "Recipiente desechable con fajitas de pollo a la parrilla y cebolla caramelizada, papas fritas con mayonesa y salsa de tomate, y pico de gallo fresco con julianas de zanahoria",
       "isSpecial": false
     },
     {
@@ -464,8 +464,8 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas. Opciones: Fajitas de pollo, Filete de pollo a la plancha, Filete de pollo empanizado, Fajitas de lomo, Fajitas mixtas.",
       "category": "pollo-lomo",
-      "image": "assets/productos/pollo y lomo/producto-filet-de-pollo-a-la-plancha-con-papas-y-ensalada.jpg",
-      "alt": "Plato de filete de pollo a la plancha con ensalada y papas fritas",
+      "image": "assets/productos/pollo y lomo/producto-filet-de-pollo-a-la-plancha-con-papas-y-ensalada.png",
+      "alt": "Plato blanco con filete de pollo a la plancha con marcas de parrilla, papas fritas doradas y ensalada fresca con tomate, pepino y zanahoria",
       "isSpecial": false
     },
     {
@@ -474,7 +474,7 @@
       "description": "Acompañado de ensalada y papas fritas. Opciones: Fajitas de pollo, Filete de pollo a la plancha, Filete de pollo empanizado, Fajitas de lomo, Fajitas mixtas.",
       "category": "pollo-lomo",
       "image": "assets/productos/pollo y lomo/producto-pollo-empanizado-con-papas.jpg",
-      "alt": "Plato de filete de pollo empanizado con ensalada y papas fritas",
+      "alt": "Filete de pollo empanizado dorado con una ramita de eneldo fresco, acompañado de papas fritas y ensalada verde con rodajas de tomate",
       "isSpecial": false
     },
     {
@@ -483,7 +483,7 @@
       "description": "Acompañado de ensalada y papas fritas. Opciones: Fajitas de pollo, Filete de pollo a la plancha, Filete de pollo empanizado, Fajitas de lomo, Fajitas mixtas.",
       "category": "pollo-lomo",
       "image": "assets/productos/pollo y lomo/producto-fajitas-de-lomo-con-papas-y-ensalada.jpeg",
-      "alt": "Plato de fajitos de lomo con ensalada y papas fritas",
+      "alt": "Plato blanco con fajitas mixtas de carne y pollo a la parrilla, pimientos y cebollas salteadas, acompañadas de papas fritas y ensalada fresca con tomates, pepino y cebolla morada",
       "isSpecial": false
     },
     {
@@ -500,8 +500,8 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-pescado-milanesa-con-papas-y-ensalada.jpg",
-      "alt": "Plato de pescado a la milanesa con ensalada y papas fritas",
+      "image": "assets/productos/camarones y pescado/producto-pescado-milanesa-con-papas-y-ensalada.png",
+      "alt": "Plato blanco con dos filetes de pescado a la milanesa con una mordida que muestra su interior, servidos con papas fritas y una ensalada fresca de lechuga, tomate, pepino y cebolla morada",
       "isSpecial": false
     },
     {
@@ -509,8 +509,8 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-pescado-a-la-plancha-con-papas-y-ensalada.jpg",
-      "alt": "Plato de pescado a la plancha con ensalada y papas fritas",
+      "image": "assets/productos/camarones y pescado/producto-pescado-a-la-plancha-con-papas-y-ensalada.png",
+      "alt": "Plato blanco con un filete de pescado a la plancha con marcas de parrilla, servido con papas fritas doradas y una ensalada fresca de lechuga, pepino, zanahoria y pimientos de colores",
       "isSpecial": false
     },
     {
@@ -518,8 +518,8 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-camarones-empanizados-con-papas-pico-de-gallo-y-guacamole.jpg",
-      "alt": "Plato de camarones empanizados con ensalada y papas fritas",
+      "image": "assets/productos/camarones y pescado/producto-camarones-empanizados-con-papas-pico-de-gallo-y-guacamole.jpeg",
+      "alt": "Plato de camarones empanizados dorados y crujientes, servidos sobre una cama de papas fritas, aderezados con salsa de queso cheddar, mayonesa y pico de gallo fresco",
       "isSpecial": false
     },
     {
@@ -527,8 +527,8 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-camarones-al-ajillo-con-ensalda-y-pure.jpg",
-      "alt": "Plato de camarones al ajillo con ensalada y papas fritas",
+      "image": "assets/productos/camarones y pescado/producto-camarones-al-ajillo-con-ensalda-y-pure.jpeg",
+      "alt": "Plato de camarones salteados con hierbas frescas y puré de papa cremoso, acompañado de una ensalada verde con rodajas de pepino y palmito",
       "isSpecial": false
     },
     {
@@ -536,8 +536,8 @@
       "price": "4500",
       "description": "Acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-arroz-con-camarones-con-papas-y-ensalada.jpg",
-      "alt": "Plato de arroz con camarones con ensalada y papas fritas",
+      "image": "assets/productos/camarones y pescado/producto-arroz-con-camarones-con-papas-y-ensalada.jpeg",
+      "alt": "Plato combinado con arroz amarillo de camarones, papas fritas con mayonesa y kétchup, y ensalada fresca con lechuga, pepino y pico de gallo",
       "isSpecial": false
     },
     {
@@ -545,8 +545,8 @@
       "price": "5500",
       "description": "Pargo rojo entero fresco, acompañado de ensalada y papas fritas.",
       "category": "camarones-pescado",
-      "image": "assets/productos/camarones y pescado/producto-pargo-rojo-entero-con-ensalada.jpg",
-      "alt": "Pargo rojo entero",
+      "image": "assets/productos/camarones y pescado/producto-pargo-rojo-entero-con-ensalada.jpeg",
+      "alt": "Pescado pargo rojo entero frito servido en un plato ovalado blanco con ensalada fresca de lechuga, rodajas de pepino, tomates cherry y aguacate, acompañado de un cuarto de limón verde",
       "isSpecial": true
     }
   ]
