@@ -243,13 +243,13 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
               </p>
               <address className="space-y-3 mb-6 text-white-2 not-italic">
                 <div className="flex items-start">
-                  <MapPinIcon className="w-5 h-5 text-secondary-1 mr-2 flex-shrink-0 mt-0.5" />
+                  <MapPinIcon className="w-5 h-5 text-secondary-1 mr-2 flex-shrink-0 mt-0.5" aria-label="Icono de un marcador de ubicación o pin"/>
                   <p className="font-opensans">
                     Juan Viñas, Cartago, Costa Rica
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <ClockIcon className="w-5 h-5 text-secondary-1 mr-2 flex-shrink-0 mt-0.5" />
+                  <ClockIcon className="w-5 h-5 text-secondary-1 mr-2 flex-shrink-0 mt-0.5" aria-label="Icono de un reloj con las manecillas apuntando hacia la derecha"/>
                   <div className="font-opensans">
                     <p>Lunes: 11:00 AM - 8:00 PM</p>
                     <p>Martes: Cerrado</p>
@@ -340,7 +340,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
               rel="noopener noreferrer"
               className="font-opensans inline-flex items-center font-medium text-secondary-1 hover:text-secondary-3 active:text-secondary-2"
             >
-              <InstagramIcon size={20} className="mr-2" />
+              <InstagramIcon size={20} className="mr-2" aria-label="Icono de Instagram con un cuadrado de bordes redondeados y un círculo en el centro"/>
               @dondecarla
             </a>
           </div>

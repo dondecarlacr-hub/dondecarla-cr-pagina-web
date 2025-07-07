@@ -134,7 +134,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
               </h2>
               <div className="space-y-6 mb-8">
                 <article className="flex items-start">
-                  <MapPinIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <MapPinIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de un marcador de ubicación o pin"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Dirección
@@ -145,7 +145,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <ClockIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <ClockIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de un reloj con las manecillas apuntando hacia la derecha"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Horario
@@ -162,7 +162,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <MessageCircleIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <MessageCircleIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de WhatsApp de diálogo"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       WhatsApp
@@ -172,7 +172,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <InstagramIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <InstagramIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de Instagram con un cuadrado de bordes redondeados y un círculo en el centro"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Instagram
