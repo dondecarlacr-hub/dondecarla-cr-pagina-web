@@ -24,7 +24,7 @@ const WhatsAppButton = ({
         className={`font-opensans flex items-center justify-center bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 text-white-1 text-white text-base font-medium py-2.5 px-5 rounded-md transition-colors ${className}`}
         aria-label={label}
       >
-        <MessageCircleIcon size={20} className="mr-2" />
+        <MessageCircleIcon size={20} className="mr-2" aria-label="Icono de WhatsApp de diálogo"/>
         <span>{label}</span>
       </button>
     </div>

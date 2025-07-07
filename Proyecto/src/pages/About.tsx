@@ -20,12 +20,12 @@ const About: React.FC<AboutProps> = ({ useElementOnScreen }) => {
   return (
     <main className="w-full bg-background-white">
       {/* Hero Section */}
-      <header className="relative bg-[#2D1B14] text-white">
+      <header className="relative bg-secondary-1 text-white">
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[28vh] md:h-[35vh] flex items-center justify-center overflow-hidden">
           <img
             src="assets/banner.jpg"
-            alt="Interior de Donde Carla"
+            alt="Interior del restaurante Donde Carla con estilo moderno con paredes oscuras, mesas de madera y sillas, un refrigerador de bebidas iluminado, luces colgantes y una decoración de plantas en el techo"
             loading="lazy"
             className="absolute inset-0 w-full h-full object-cover brightness-50 contrast-125"
           />
@@ -119,9 +119,9 @@ const About: React.FC<AboutProps> = ({ useElementOnScreen }) => {
             >
               <img
                 src="assets/nuestra-historia.jpg"
-                alt="Cocineros preparando comida en Donde Carla"
+                alt="Interior del restaurante Donde Carla con mesas y sillas de madera, paredes oscuras y detalles en madera, mostrando un área de mostrador al fondo"
                 loading="lazy"
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
             </figure>
           </article>

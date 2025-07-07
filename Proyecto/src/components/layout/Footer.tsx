@@ -31,7 +31,7 @@ const Footer: React.FC<FooterProps> = ({ useElementOnScreen }) => {
                 rel="noopener noreferrer"
                 aria-label="Instagram"
               >
-                <InstagramIcon className="w-6 h-6 hover:text-secondary-3 active:text-secondary-2 transition-colors" />
+                <InstagramIcon className="w-6 h-6 hover:text-secondary-3 active:text-secondary-2 transition-colors" aria-label="Icono de Instagram con un cuadrado de bordes redondeados y un círculo en el centro"/>
               </a>
               <a
                 href="https://wa.me/50612345678"
@@ -39,7 +39,7 @@ const Footer: React.FC<FooterProps> = ({ useElementOnScreen }) => {
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
               >
-                <PhoneIcon className="w-6 h-6 hover:text-secondary-3 active:text-secondary-2 transition-colors" />
+                <PhoneIcon className="w-6 h-6 hover:text-secondary-3 active:text-secondary-2 transition-colors" aria-label="Icono de un auricular de teléfono de línea fija"/>
               </a>
             </nav>
           </section>
@@ -88,11 +88,11 @@ const Footer: React.FC<FooterProps> = ({ useElementOnScreen }) => {
             </h3>
             <div className="space-y-3">
               <div className="flex items-start">
-                <MapPinIcon className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
+                <MapPinIcon className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" aria-label="Icono de un marcador de ubicación o pin"/>
                 <p className="font-opensans">Juan Viñas, Cartago, Costa Rica</p>
               </div>
               <div className="flex items-start">
-                <ClockIcon className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
+                <ClockIcon className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" aria-label="Icono de un reloj con las manecillas apuntando hacia la derecha"/>
                 <div className="font-opensans">
                   <p>Lunes: 11:00 AM - 8:00 PM</p>
                   <p>Martes: Cerrado</p>

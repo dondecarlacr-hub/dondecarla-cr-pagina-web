@@ -49,7 +49,7 @@ const PrivacyPolicyModal: React.FC<PrivacyPolicyModalProps> = ({
     <>
       {/* Fondo oscuro con overlay y efecto blur - Capa separada */}
       <div
-        className="fixed inset-0 bg-gray-900/80 backdrop-blur-sm transition-opacity duration-300 ease-in-out z-[999]"
+        className="fixed inset-0 bg-black-1/60 backdrop-blur-sm transition-opacity duration-300 ease-in-out z-[999]"
         aria-hidden="true"
       />
 
@@ -226,7 +226,7 @@ const PrivacyPolicyModal: React.FC<PrivacyPolicyModalProps> = ({
               <button
                 type="button"
                 onClick={onAccept}
-                className="px-6 py-2 bg-ternary-1 text-white-1 font-medium rounded-md hover:bg-ternary-700 transition-colors focus:outline-none focus:ring-2 focus:ring-ternary-500 focus:ring-offset-2"
+                className="px-6 py-2 bg-ternary-1 text-white-1 font-medium rounded-md hover:bg-ternary-3 active:bg-ternary-2 transition-colors focus:outline-none focus:ring-2 focus:ring-ternary-500 focus:ring-offset-2"
               >
                 Aceptar Política
               </button>

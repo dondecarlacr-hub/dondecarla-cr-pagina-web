@@ -79,12 +79,12 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
   return (
     <main className="w-full bg-background-white">
       {/* Banner */}
-      <header className="relative bg-[#2D1B14] text-white">
+      <header className="relative bg-secondary-1 text-white">
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
         <div className="relative h-[50vh] md:h-[25vh] flex items-center justify-center overflow-hidden">
           <img
             src="assets/banner.jpg"
-            alt="Interior de Donde Carla"
+            alt="Interior del restaurante Donde Carla con estilo moderno con paredes oscuras, mesas de madera y sillas, un refrigerador de bebidas iluminado, luces colgantes y una decoración de plantas en el techo"
             loading="lazy"
             className="absolute inset-0 w-full h-full object-cover brightness-50 contrast-125"
           />
@@ -134,7 +134,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
               </h2>
               <div className="space-y-6 mb-8">
                 <article className="flex items-start">
-                  <MapPinIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <MapPinIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de un marcador de ubicación o pin"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Dirección
@@ -145,7 +145,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <ClockIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <ClockIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de un reloj con las manecillas apuntando hacia la derecha"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Horario
@@ -162,7 +162,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <MessageCircleIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <MessageCircleIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de WhatsApp de diálogo"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       WhatsApp
@@ -172,7 +172,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <InstagramIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" />
+                  <InstagramIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de Instagram con un cuadrado de bordes redondeados y un círculo en el centro"/>
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Instagram
