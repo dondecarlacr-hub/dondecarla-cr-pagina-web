@@ -15,7 +15,7 @@ const Header = () => {
             <figure>
               <img
                 src="assets/logo-donde-carla.png"
-                alt="Logo Donde Carla"
+                alt="Logo de Donde Carla"
                 className="h-10 md:h-12 rounded-full"
               />
             </figure>

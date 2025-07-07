@@ -55,10 +55,10 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
     <main className="w-full">
       <section className="relative text-white">
         <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
-        <div className="relative h-[50vh] md:h-[46vh] flex items-center justify-center overflow-hidden">
+        <div className="relative h-[50vh] md:h-[46vh] bg-secondary-1 flex items-center justify-center overflow-hidden">
           <img
             src="assets/banner.jpg"
-            alt="Interior de Donde Carla"
+            alt="Interior del restaurante Donde Carla con estilo moderno con paredes oscuras, mesas de madera y sillas, un refrigerador de bebidas iluminado, luces colgantes y una decoración de plantas en el techo"
             loading="lazy"
             className="absolute object-cover inset-0 w-full h-full brightness-50 contrast-125"
           />
@@ -140,7 +140,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
             >
               <img
                 src="assets/bienvenida-imagen.jpg"
-                alt="Interior de Donde Carla"
+                alt="Área de atención al cliente en el restaurante Donde Carla con paredes de madera aglomerada, una ventana arqueada, luces empotradas y un mostrador con objetos varios"
                 loading="lazy"
                 className="w-full h-auto object-cover"
               />
@@ -283,7 +283,7 @@ const Home: React.FC<HomeProps> = ({ useElementOnScreen }) => {
             >
               <img
                 src="assets/local-donde-Carla.jpg"
-                alt="Exterior of Donde Carla restaurant"
+                alt="Fachada exterior del restaurante 'Donde Carla' con un cartel que anuncia 'Desayunos Almuerzos Comida rápida', un número de teléfono y un identificador de Instagram, junto a una entrada de vidrio y escaleras"
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
