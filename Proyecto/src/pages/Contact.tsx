@@ -119,7 +119,7 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
       {/* Información y Formulario */}
       <section className="py-16 bg-background-white">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 gap-12">
             {/* Información */}
             <aside
               ref={infoRef}
@@ -134,18 +134,25 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
               </h2>
               <div className="space-y-6 mb-8">
                 <article className="flex items-start">
-                  <MapPinIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de un marcador de ubicación o pin"/>
+                  <MapPinIcon
+                    className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5"
+                    aria-label="Icono de un marcador de ubicación o pin"
+                  />
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Dirección
                     </h3>
                     <p className="font-opensans text-white-2">
-                      De la entrada de los Alpes, 50 mts al sur, Provincia de Cartago, Jiménez, Juan Viñas.
+                      De la entrada de los Alpes, 50 mts al sur, Provincia de
+                      Cartago, Jiménez, Juan Viñas.
                     </p>
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <ClockIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de un reloj con las manecillas apuntando hacia la derecha"/>
+                  <ClockIcon
+                    className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5"
+                    aria-label="Icono de un reloj con las manecillas apuntando hacia la derecha"
+                  />
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Horario
@@ -162,7 +169,10 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <MessageCircleIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de WhatsApp de diálogo"/>
+                  <MessageCircleIcon
+                    className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5"
+                    aria-label="Icono de WhatsApp de diálogo"
+                  />
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       WhatsApp
@@ -172,7 +182,10 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                   </div>
                 </article>
                 <article className="flex items-start">
-                  <InstagramIcon className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5" aria-label="Icono de Instagram con un cuadrado de bordes redondeados y un círculo en el centro"/>
+                  <InstagramIcon
+                    className="w-6 h-6 text-secondary-1 mr-3 flex-shrink-0 mt-0.5"
+                    aria-label="Icono de Instagram con un cuadrado de bordes redondeados y un círculo en el centro"
+                  />
                   <div>
                     <h3 className="font-lato font-semibold text-primary">
                       Instagram
@@ -201,141 +214,9 @@ const Contact: React.FC<ContactProps> = ({ useElementOnScreen }) => {
                 />
               </div>
             </aside>
-
-            {/* Formulario */}
-            <section
-              ref={formRef}
-              className={`${
-                formVisible
-                  ? "animate__animated animate__fadeInRight"
-                  : "opacity-0"
-              }`}
-            >
-              <h2 className="font-lato text-2xl font-bold text-primary mb-6">
-                Envíanos un Mensaje
-              </h2>
-              <form
-                onSubmit={handleSubmit}
-                className="bg-background-beige p-6 rounded-lg shadow-md"
-              >
-                <div className="mb-4">
-                  <label
-                    htmlFor="name"
-                    className="block font-opensans text-secondary-1 font-medium mb-2"
-                  >
-                    Nombre
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-1 focus:border-transparent"
-                  />
-                </div>
-                <div className="mb-4">
-                  <label
-                    htmlFor="email"
-                    className="block font-opensans text-secondary-1 font-medium mb-2"
-                  >
-                    Correo Electrónico
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
-                  />
-                </div>
-                <div className="mb-4">
-                  <label
-                    htmlFor="phone"
-                    className="block font-opensans text-secondary-1 font-medium mb-2"
-                  >
-                    Teléfono
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
-                  />
-                </div>
-                <div className="mb-4">
-                  <label
-                    htmlFor="subject"
-                    className="block font-opensans text-secondary-1 font-medium mb-2"
-                  >
-                    Asunto
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label
-                    htmlFor="message"
-                    className="block font-opensans text-secondary-1 font-medium mb-2"
-                  >
-                    Mensaje
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={5}
-                    required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent"
-                  />
-                </div>
-
-                {/* Checkbox de aceptación de políticas */}
-                <div className="mb-4 flex items-start">
-                  <div className="flex items-center h-5">
-                    <input
-                      id="policy-checkbox"
-                      type="checkbox"
-                      checked={acceptedPolicy}
-                      onChange={(e) => setAcceptedPolicy(e.target.checked)}
-                      className="w-4 h-4 text-ternary-1 bg-gray-100 border-gray-300 rounded focus:ring-ternary-1 focus:ring-2"
-                    />
-                  </div>
-                  <label
-                    htmlFor="policy-checkbox"
-                    className="ml-2 text-sm font-opensans text-gray-700"
-                  >
-                    Acepto la{" "}
-                    <button
-                      type="button"
-                      onClick={() => setShowPolicy(true)}
-                      className="text-ternary-1 hover:text-ternary-3 underline"
-                    >
-                      Política de Privacidad
-                    </button>
-                  </label>
-                </div>
-
-                <button
-                  type="submit"
-                  className={`w-full font-opensans text-white-1 font-medium py-3 px-4 rounded-md transition-colors ${
-                    acceptedPolicy
-                      ? "bg-ternary-1 hover:bg-ternary-3 active:bg-ternary-2 cursor-pointer"
-                      : "bg-gray-400 cursor-not-allowed"
-                  }`}
-                >
-                  Enviar Mensaje
-                </button>
-              </form>
-            </section>
           </div>
         </div>
       </section>
-
-      {/* Modal de Política de Privacidad */}
-      <PrivacyPolicyModal
-        isOpen={showPolicy}
-        onClose={() => setShowPolicy(false)}
-        onAccept={handleAcceptPolicy}
-      />
     </main>
   );
 };
